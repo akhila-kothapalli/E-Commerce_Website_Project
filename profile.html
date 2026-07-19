@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+
+<link rel="stylesheet" href="css/profile.css">
+
+</head>
+<body>
+
+<header>
+
+<h2>🛒 BuyWorld</h2>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">Cart</a>
+
+</nav>
+
+</header>
+
+<div class="profile-container">
+
+<div class="profile-card">
+
+<h2 id="welcome">Welcome</h2>
+
+<input
+type="text"
+id="name">
+
+<input
+type="email"
+id="email"
+readonly>
+
+<button onclick="updateProfile()">
+
+Update Profile
+
+</button>
+
+<button
+class="logout"
+onclick="logout()">
+
+Logout
+
+</button>
+
+</div>
+
+<div class="orders-card">
+
+<h2>My Orders</h2>
+
+<p>
+
+Total Orders :
+
+<span id="orderCount">
+
+0
+
+</span>
+
+</p>
+
+<div id="ordersList">
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/profile.js"></script>
+
+</body>
+</html>
