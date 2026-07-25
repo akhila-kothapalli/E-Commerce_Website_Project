@@ -95,7 +95,7 @@ BuyWorld/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/BuyWorld.git
+git clone https://github.com/akhila-kothapalli/E-Commerce_Website_Project.git
 ```
 
 ### 2. Open the Project
