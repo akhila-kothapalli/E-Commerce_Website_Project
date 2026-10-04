@@ -190,6 +190,4 @@ GitHub: https://github.com/akhila-kothapalli
 
 This project is developed for educational and learning purposes. It may be used and modified for academic or personal learning.
 
----
 
-### ⭐ If you found this project helpful, consider giving it a star on GitHub!
